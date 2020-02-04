@@ -1,0 +1,92 @@
+.is-tiles-wrapper {
+  margin-bottom: $default-padding;
+}
+
+.tile {
+  &.is-child {
+    h3 {
+      font-weight: bolder;
+      color: #395075;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+
+  .extra-option {
+    li {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.is-title-bar {
+  position: relative;
+
+  .level-right {
+    position: absolute;
+    right: 2px;
+    top: -10px;
+    z-index: 2;
+
+    .level-item {
+      align-items: end;
+    }
+  }
+
+  .progress-wrapper {
+    margin-bottom: 0.5rem;
+  }
+
+  .project-basic {
+    padding-right: 15px;
+    padding-left: 50px;
+    background: #eeedef;
+    text-align: right;
+  }
+
+
+  .project-attendant {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .project-container {
+      text-align: center;
+      background: #132541;
+      border-radius: 6px;
+      border: 1px solid rgba(24, 28, 33, 0.06);
+      width: 150px;
+      -webkit-box-shadow: 0px 1px 5px 0.5px rgba(0, 0, 0, 0.68);
+      -moz-box-shadow: 0px 1px 5px 0.5px rgba(0, 0, 0, 0.68);
+      box-shadow: 0px 1px 5px 0.5px rgba(0, 0, 0, 0.68);
+
+      &.client {
+        background: #eeedef;
+        .yoobo-icon {
+          margin-right: 0px;
+        }
+        .company-title{
+          color: #132541;
+        }
+      }
+    }
+
+    .project-head {
+      border: 3px solid white;
+      background: #eeedef;
+      border-radius: 50px;
+      padding: 16px 15px 10px 16px;
+      width: 90px;
+      margin-top: -45px;
+      margin-left: 28px;
+    }
+
+    .project-body {
+      padding: 10px;
+    }
+  }
+}

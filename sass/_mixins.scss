@@ -1,0 +1,45 @@
+@mixin transition($t) {
+  transition: $t 250ms ease-in-out 50ms;
+}
+
+@mixin icon-with-update-mark ($icon-base-width) {
+  .icon {
+    width: $icon-base-width;
+
+    &.has-update-mark:after {
+      right: ($icon-base-width / 2) - .85;
+    }
+  }
+}
+
+@mixin menu-item-position()
+{
+  li
+  {
+    width: 100%;
+  }
+  .menu-icon-left{
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  span.menu-icon {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  span.menu-item-label {
+    display: inline-block;
+    line-height: 50px;
+    flex-basis: 0;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    flex-shrink: 0;
+  }
+
+}

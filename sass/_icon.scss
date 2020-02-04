@@ -1,0 +1,112 @@
+i.yoobo-icon {
+  height: 50px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  background-position: center;
+
+  &.laptop {
+    width: 60px;
+    background-image: url("/images/icons/laptop.png");
+
+    &.dark-theme {
+      background-image: url("/images/icons/laptop_white.png");
+    }
+  }
+
+  &.component {
+    width: 45px;
+    background-image: url("/images/icons/component.png");
+  }
+
+  &.client {
+    width: 45px;
+    background-image: url("/images/icons/client.png");
+
+    &.dark-theme {
+      background-image: url("/images/icons/client_white.png");
+    }
+  }
+
+  &.invoice {
+    width: 46px;
+    background-image: url("/images/icons/invoice.png");
+
+    &.dark-theme {
+      background-image: url("/images/icons/invoice_white.png");
+    }
+  }
+
+  &.team {
+    width: 54px;
+    background-image: url("/images/icons/team.png");
+
+    &.dark-theme {
+      background-image: url("/images/icons/team_white.png");
+    }
+  }
+
+  &.timesheet {
+    width: 50px;
+    background-image: url("/images/icons/timesheet.png");
+
+    &.dark-theme {
+      background-image: url("/images/icons/timesheet_white.png");
+    }
+  }
+}
+
+i.yoobo-small-icon {
+  height: 20px;
+  width: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &.star {
+    background-image: url("/images/icons/start.png");
+
+    &.grey {
+      background-image: url("/images/icons/start_grey.png");
+    }
+  }
+
+  &.email {
+    background-image: url("/images/icons/email_white.png");
+
+    &.grey {
+      background-image: url("/images/icons/email_grey.png");
+    }
+  }
+
+
+  &.link {
+    background-image: url("/images/icons/link_white.png");
+
+    &.grey {
+      background-image: url("/images/icons/link_grey.png");
+    }
+
+    &.yellow {
+      background-image: url("/images/icons/link_yellow.png");
+    }
+  }
+
+  &.dot {
+    background-image: url("/images/icons/dot_white.png");
+
+    &.grey {
+      background-image: url("/images/icons/dot_grey.png");
+    }
+  }
+
+  &.star {
+    background-image: url("/images/icons/star_white.png");
+
+    &.grey {
+      background-image: url("/images/icons/star_grey.png");
+
+    }
+  }
+}

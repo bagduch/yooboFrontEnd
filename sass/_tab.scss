@@ -1,0 +1,55 @@
+
+.schedule-container {
+  .tabs {
+    li {
+      display: block;
+      background-color: #d1d3d4;
+      margin-right: 5px;
+      border-radius: 5px 5px 0px 0px;
+
+      &.is-active a {
+        background-color: #eeedef;
+        color: #395075;
+      }
+    }
+
+  }
+
+  .b-tabs {
+    .tab-content {
+      border-bottom: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+      border-left: 1px solid #dbdbdb;
+      padding: 0px;
+      height: 60vh;
+    }
+  }
+
+}
+
+.all-invoice-container {
+  .tabs {
+    li {
+      display: block;
+      background-color: #d1d3d4;
+      margin-right: 5px;
+      border-radius: 5px 5px 0px 0px;
+
+      &.is-active a {
+        background-color: #eeedef;
+        color: #395075;
+      }
+    }
+
+  }
+
+  .b-tabs {
+    .tab-content {
+      border-bottom: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+      border-left: 1px solid #dbdbdb;
+      padding: 0px;
+      height: 60vh;
+    }
+  }
+}

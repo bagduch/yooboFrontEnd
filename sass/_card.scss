@@ -1,0 +1,75 @@
+.card:not(:last-child) {
+  margin-bottom: $default-padding;
+}
+.notification{
+  background-color:transparent;
+}
+.card {
+  border-radius: $radius-large;
+  border: $card-border;
+
+  &.has-table {
+    .card-content {
+      padding: 0;
+    }
+    .b-table {
+      border-radius: $radius-large;
+      overflow: hidden;
+    }
+  }
+
+  .card-footer{
+    .card-button{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+  }
+
+  &.is-card-widget {
+    .card-content {
+      padding: $default-padding * .5;
+    }
+  }
+
+  .card-header {
+    border-bottom: 1px solid $base-color-light;
+  }
+
+  .card-content {
+    hr {
+      margin-left: $card-content-padding * -1;
+      margin-right: $card-content-padding * -1;
+    }
+  }
+  .notification{
+    background-color:transparent;
+  }
+
+  .notification.is-card-toolbar {
+    border-radius: 0;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    margin-bottom: 0;
+
+    .button.has-checked-rows-number {
+      span:last-child {
+        margin-left: $default-padding * .25;
+      }
+    }
+  }
+
+  .is-widget-icon {
+    .icon {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  .is-widget-label {
+    .subtitle {
+      color: $grey;
+    }
+  }
+}

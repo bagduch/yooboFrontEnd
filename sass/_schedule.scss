@@ -1,0 +1,17 @@
+.e-header-row{
+
+  td{
+    background-color: #395075 !important;
+    color: #fff!important;
+  }
+
+}
+
+.e-week-view{
+  .e-header-row{
+    td:nth-child(7),td:nth-child(1)
+    {
+      background-color: #87949f!important;
+    }
+  }
+}

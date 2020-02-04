@@ -1,0 +1,18 @@
+@include desktop {
+
+
+  .columns{
+    &.project
+    {
+      min-height: 80vh;
+      background-color: white;
+      .column{
+        &.is-one-fifth
+        {
+          background: #2A3B5A;
+        }
+      }
+    }
+  }
+
+}

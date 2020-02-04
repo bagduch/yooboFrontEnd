@@ -1,0 +1,21 @@
+.b-radio.radio input[type=radio]:checked + .check {
+  border-color: #395075;
+}
+.b-radio.radio input[type=radio] + .check:before
+{
+  background-color: #395075;
+}
+.b-tooltip.is-primary:after{
+  background-color: #395075;
+}
+.b-tooltip.is-top.is-primary:before
+{
+  background-color: #395075;
+}
+.b-slider.is-primary .b-slider-fill {
+  background: #395075 !important;
+}
+.b-checkbox.checkbox input[type=checkbox] + .check, .b-radio.radio input[type=radio] + .check
+{
+  border-color: #395075;
+}
